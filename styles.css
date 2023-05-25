@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    width: 1440px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    width: 720px;
+    height: 500px;
+    display: flex;
+}
+
+.card-1 {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+
+.title-1 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(241, 100%, 89%);
+    margin-block: 0px;
+    font-size: 20px;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    height: 80px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-block: 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.number-2 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-block: 0px;
+    color: hsl(241, 100%, 89%);
+}
+
+.adjective {
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin-block: 0px;
+}
+
+.paragraph {
+    width: 240px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    margin-block: 0px;
+}
+
+.card-2 {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 20px 20px hsl(221, 100%, 96%);
+    border-radius: 0px 30px 30px 0px;
+}
+
+.title-2 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    color: hsl(224, 30%, 27%);
+    margin-block: 0px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+img {
+    margin-left: 15px;
+}
+
+.red {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.reaction {
+    margin-block: 0px;
+    color: hsl(0, 100%, 67%);
+}
+
+.score {
+    margin-block: 0px;
+}
+
+.yellow {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.memory {
+    margin-block: 0px;
+    color: hsl(39, 100%, 56%);
+}
+
+.score-2 {
+    margin-block: 0px;
+}
+
+.green {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.verbal {
+    margin-block: 0px;
+    color: hsl(166, 100%, 37%);
+}
+
+.score-3 {
+    margin-block: 0px;
+}
+
+.blue {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.visual {
+    margin-block: 0px;
+    color: hsl(234, 85%, 45%);
+}
+
+.score-4 {
+    margin-block: 0px;
+}
+
+.button {
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 280px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.button:active {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    cursor: pointer;
+}
+
+.button:hover {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    transform: scale(1.1);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width: 720px) {
+    body {
+        width: 375px;
+        height: 809px;
+    }
+
+    .card-content {
+        flex-direction: column;
+        width: 375px;
+        height: 809px;
+    }
+
+    .card-1 {
+        width: 375px;
+        height: 390px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .number {
+        height: 60px;
+        font-size: 60px;
+    }
+
+    .number-2 {
+        margin-top: 10px;
+    }
+
+    .adjective {
+        font-size: 25px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card-2 {
+        width: 375px;
+        height: 390px;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .title-2 {
+        margin-top: 20px;
+    }
+
+    .button{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .attribution {
+        width: 375px;
+        height: 9px;
+        margin-top: 20px;
+    }
+}
